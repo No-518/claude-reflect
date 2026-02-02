@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Lock files
+bun.lock
+package-lock.json
+yarn.lock
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test coverage
+coverage/
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+.env.*
+
+# Temporary files
+*.tmp
+*.temp
+
+# Planning/development files (not for public release)
+task_plan.md
+findings.md
+progress.md
+docs/internal/

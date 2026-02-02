@@ -1,0 +1,54 @@
+{
+  "name": "claude-reflect",
+  "version": "0.4.0",
+  "description": "AI-powered reflection skill for Claude Code - Daily and project-level retrospectives with smart pitfall detection",
+  "type": "module",
+  "main": "dist/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./src/types/index.ts"
+    },
+    "./commands": {
+      "import": "./src/commands/index.ts"
+    }
+  },
+  "scripts": {
+    "build": "bun build ./src/index.ts --outdir ./dist --target bun",
+    "dev": "bun run --watch src/index.ts",
+    "test": "bun test",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf dist",
+    "prepublish": "bun run build"
+  },
+  "keywords": [
+    "claude-code",
+    "skill",
+    "ai",
+    "reflection",
+    "learning",
+    "bun",
+    "typescript",
+    "retrospective",
+    "daily-reflection",
+    "pitfall-detection"
+  ],
+  "author": "wybcode",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wybcode/claude-reflect"
+  },
+  "homepage": "https://github.com/wybcode/claude-reflect#readme",
+  "bugs": {
+    "url": "https://github.com/wybcode/claude-reflect/issues"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {},
+  "engines": {
+    "bun": ">=1.0.0"
+  }
+}
