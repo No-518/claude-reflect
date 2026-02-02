@@ -16,13 +16,13 @@ AI-powered reflection skill for Claude Code - Daily and project-level retrospect
 
 ```bash
 cd ~/.claude/skills
-git clone https://github.com/wybcode/claude-reflect
+git clone https://github.com/No-518/claude-reflect
 ```
 
 ### Standalone
 
 ```bash
-git clone https://github.com/wybcode/claude-reflect
+git clone https://github.com/No-518/claude-reflect
 cd claude-reflect
 bun install
 bun run build

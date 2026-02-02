@@ -37,11 +37,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wybcode/claude-reflect"
+    "url": "https://github.com/No-518/claude-reflect"
   },
-  "homepage": "https://github.com/wybcode/claude-reflect#readme",
+  "homepage": "https://github.com/No-518/claude-reflect#readme",
   "bugs": {
-    "url": "https://github.com/wybcode/claude-reflect/issues"
+    "url": "https://github.com/No-518/claude-reflect/issues"
   },
   "devDependencies": {
     "@types/bun": "latest",
